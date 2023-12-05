@@ -1,3 +1,20 @@
 .fondo {
-    background: linear-gradient(#648880, #293f50);
+    background-color: white;
+    background: linear-gradient(180deg, #63FF60 0%, #FFF 100%);
+}
+
+.logo {
+    max-width: 90px;
+}
+
+.imagen {
+    max-width: 210px;
+}
+
+.menu {
+    max-width: 50px;
+}
+
+.piramide {
+    width: 400;
 }
