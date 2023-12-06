@@ -43,7 +43,7 @@ hr {
 }
 
 .piramide {
-    width: 400;
+    width: 400px;
 }
 
 * {
@@ -53,3 +53,7 @@ hr {
 a{
     text-decoration: none;
 }
+
+@media screen and (min-width:576px){}
+
+@media screen and (min-width:992px){}
