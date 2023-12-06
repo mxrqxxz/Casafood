@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;700&display=swap');
+
 .fondo {
     background-color: white;
     background: linear-gradient(180deg, #63FF60 0%, #FFF 100%);
@@ -12,11 +14,11 @@
 }
 
 .icono {
-    max-width: 50px;
+    height: 50px;
 }
 
 .logoFooter {
-    max-height: 50px;
+    height: 70px;
 }
 
 .botonesIndex {
@@ -24,7 +26,8 @@
     color: white;
     background-color: #7B78FB;
     border-radius: 10px;
-    padding: 5% 10% 5% 10%;
+    padding: 1.5% 5% 1.5% 5%;
+    width: 170px;
 }
 
 a:hover {
@@ -34,10 +37,19 @@ a:hover {
 hr {
     margin: 10%;
 }
+
 .menu {
     max-width: 50px;
 }
 
 .piramide {
     width: 400;
+}
+
+* {
+    font-family: 'Inria Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
