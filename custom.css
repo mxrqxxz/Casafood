@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@500;700&display=swap');
 
 .fondo {
     background-color: white;
@@ -14,14 +14,25 @@
 }
 
 .icono {
-    height: 50px;
+    height: 40px;
+    float: left;
+    padding-right: 1em;
 }
 
 .logoFooter {
     height: 70px;
+    display: block;
+    margin: auto;
+}
+
+.footer-images {
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
 }
 
 .botonesIndex {
+    margin: 1.5em;
     text-decoration: none;
     color: white;
     background-color: #7B78FB;
@@ -31,11 +42,11 @@
 }
 
 a:hover {
-    color: white;
+    color: black;
 }
 
 hr {
-    margin: 10%;
+    margin: 3em;
 }
 
 .menu {
@@ -50,10 +61,92 @@ hr {
     font-family: 'Inria Sans', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
+    color: white;
 }
 
-@media screen and (min-width:576px){}
+footer p {
+    font-size: small;
+    margin-top: 0.em;
+}
 
-@media screen and (min-width:992px){}
+.centrado {
+    display: flex;
+    justify-content: center;
+}
+
+.prueba p {
+    margin-top: 2em;
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:576px) {
+
+    .icono {
+        height: 30px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .prueba p {
+        margin-top: 2em;
+        background-color: transparent;
+    }
+
+    .fondo-sm {
+        background-color: #7B78FB;
+        color: white;
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    footer p {
+        font-size: x-small;
+        margin-top: 0.em;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+
+    .prueba {
+        padding-top: 4em;
+        font-size: 1.5em;
+    }
+
+    .icono {
+        height: 50px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    footer p {
+        font-size: x-large;
+        margin-top: 0.em;
+    }
+
+    .img-fluida {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .fondo-lg {
+        background-color: transparent;
+    }
+
+    a {
+        color: black;
+    }
+
+
+    a:hover {
+        color: black;
+    }
+
+
+}
