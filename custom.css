@@ -17,6 +17,9 @@
     max-width: 100%;
     height: auto;
     padding: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .icono {
