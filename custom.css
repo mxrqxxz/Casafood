@@ -13,6 +13,12 @@
     max-width: 210px;
 }
 
+.imagenUsos {
+    max-width: 100%;
+    height: auto;
+    padding: 2em;
+}
+
 .icono {
     height: 40px;
     float: left;
@@ -37,7 +43,7 @@
     color: white;
     background-color: #7B78FB;
     border-radius: 10px;
-    padding: 1.5% 5% 1.5% 5%;
+    padding: 1em;
     width: 170px;
 }
 
@@ -49,7 +55,7 @@
     color: white;
     background-color: #7B78FB;
     border-radius: 10px;
-    padding: 1.5% 5% 1.5% 5%;
+    padding: 1em;
     width: 170px;
 }
 
@@ -106,8 +112,16 @@ footer p {
 }
 
 section p {
-    padding: 2em;
+    padding: 1em;
 }
+
+
+
+.cardcustom {
+    display: flex;
+    justify-content: center;
+}
+
 
 @media screen and (min-width:576px) {
 
