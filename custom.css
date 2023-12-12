@@ -44,7 +44,7 @@
     background-color: #7B78FB;
     border-radius: 10px;
     padding: 1em;
-    width: 170px;
+    width: 150px;
 }
 
 .botonShow {
@@ -78,6 +78,7 @@ hr {
 * {
     font-family: 'Inria Sans', sans-serif;
     line-height: 1.5;
+    font-size: 1.05em;
 }
 
 a {
@@ -87,11 +88,6 @@ a {
 
 footer p {
     font-size: small;
-}
-
-.centrado {
-    display: flex;
-    justify-content: center;
 }
 
 .prueba p {
@@ -108,19 +104,17 @@ footer p {
     margin-right: auto;
     margin-top: 10%;
     border-radius: 20px;
+    min-width: 400px;
 }
 
 section p {
     padding: 1em;
 }
 
-
-
 .cardcustom {
     display: flex;
     justify-content: center;
 }
-
 
 @media screen and (min-width:576px) {
 
@@ -147,7 +141,6 @@ section p {
     footer p {
         font-size: x-small;
     }
-
 }
 
 @media screen and (min-width:992px) {
@@ -180,11 +173,9 @@ section p {
         color: black;
     }
 
-
     a:hover {
         color: black;
     }
-
 
 }
 
