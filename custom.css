@@ -158,8 +158,20 @@ footer p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
     min-width: 400px;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.seccionUsosAbajo {
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 20px 20px;
+    min-width: 400px;
+    height: 100%;
 }
 
 section p {
