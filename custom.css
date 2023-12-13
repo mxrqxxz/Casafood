@@ -199,6 +199,10 @@ footer p {
     justify-content: center;
 }
 
+.textoAsistencia {
+    padding: 1em;
+}
+
 /* FORMULARIO */
 
 label {
