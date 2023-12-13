@@ -146,6 +146,10 @@ footer p {
     text-align: center;
 }
 
+.controlMargin {
+    margin-top: 20px;
+}
+
 .prueba p {
     margin-top: 2em;
     background-color: #fff;
