@@ -1,5 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@500;700&display=swap');
 
+/* 
+
+TODOS LOS "!important" SEGUIDOS DE UNA PROPIEDAD SE HAN INCORPORADO 
+DEBIDO A QUE BOOTSTRAP LOS CONSIDERA NECESARIOS PARA ASEGURARSE DE QUE 
+ANULAN COMPONENTES Y CLASES DE MODIFICADORES SEGÚN LO PREVISTO.
+
+EL ORDEN QUE SE HA SEGUIDO A LA HORA DE DESARROLLAR EN ESTE FICHERO HA SIDO
+PRIMERO ETIQUETAS, LUEGO CLASES Y POR ÚLTIMO MEDIA QUERYS (DENTRO SIGUE EL ORDEN MENCIONADO).
+
+
+*/
+
+* {
+    font-family: 'Inria Sans', sans-serif;
+    line-height: 1.5;
+    font-size: 1.05em;
+}
+
+a:hover {
+    color: black;
+}
+
+hr {
+    margin: 3em;
+}
+
+section p {
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    font-size: small;
+    text-align: center;
+}
+
 .fondo {
     background-color: white;
     background: linear-gradient(180deg, #63FF60 0%, #FFF 100%);
@@ -114,36 +154,12 @@
     width: 170px;
 }
 
-a:hover {
-    color: black;
-}
-
-hr {
-    margin: 3em;
-}
-
 .menu {
     max-width: 50px;
 }
 
 .piramide {
     width: 400px;
-}
-
-* {
-    font-family: 'Inria Sans', sans-serif;
-    line-height: 1.5;
-    font-size: 1.05em;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-footer p {
-    font-size: small;
-    text-align: center;
 }
 
 .controlMargin {
@@ -178,100 +194,12 @@ footer p {
     height: 100%;
 }
 
-section p {
-    padding: 1em;
-}
-
 .cardcustom {
     display: flex;
     justify-content: center;
 }
 
-@media screen and (min-width:576px) {
-
-    .icono {
-        height: 30px;
-    }
-
-    .prueba p {
-        margin-top: 1em;
-        background-color: transparent;
-    }
-
-    .fondo-sm {
-        background-color: #7B78FB;
-        color: white;
-    }
-
-    a:hover {
-        color: white;
-    }
-
-    footer p {
-        font-size: x-small;
-    }
-
-    .centrar-sm {
-        justify-content: center!important;
-    }
-}
-
-@media screen and (min-width:768px) {
-
-    .centrar-md{
-        justify-content: space-between!important;
-    }
-}
-
-@media screen and (min-width:992px) {
-
-    .prueba {
-        padding-top: 4em;
-        font-size: 1.5em;
-    }
-
-    .icono {
-        height: 50px;
-    }
-
-    footer p {
-        font-size: x-large;
-    }
-
-    .img-fluida {
-        max-width: 90%;
-        height: auto;
-    }
-
-    .fondo-lg {
-        background-color: transparent;
-    }
-
-    a {
-        color: black;
-    }
-
-    a:hover {
-        color: black;
-    }
-
-}
-
-
 /* FORMULARIO */
-
-.containerf {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
 
 label {
     display: block;
@@ -301,17 +229,6 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #0056b3;
-}
-
-@media(max-width: 768px) {
-    .container {
-        margin: 10px;
-        padding: 10px;
-    }
-}
-
-.mtw {
-    margin-top: 3em;
 }
 
 table {
@@ -348,4 +265,108 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.containerf {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.mtw {
+    margin-top: 3em;
+}
+
+/* MEDIA QUERYS */
+
+/* MEDIA QUERY PARA TAMAÑO SM */
+
+@media screen and (min-width:576px) {
+
+    a:hover {
+        color: white;
+    }
+
+    footer p {
+        font-size: x-small;
+    }
+
+    .icono {
+        height: 30px;
+    }
+
+    .prueba p {
+        margin-top: 1em;
+        background-color: transparent;
+    }
+
+    .fondo-sm {
+        background-color: #7B78FB;
+        color: white;
+    }
+
+    .centrar-sm {
+        justify-content: center!important;
+    }
+}
+
+/* MEDIA QUERY PARA TAMAÑO MD */
+
+@media screen and (min-width:768px) {
+
+    .centrar-md{
+        justify-content: space-between!important;
+    }
+}
+
+/* MEDIA QUERY PARA TAMAÑO MD COMO MÁXIMO */
+
+@media(max-width: 768px) {
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+/* MEDIA QUERY PARA TAMAÑO LG */
+
+@media screen and (min-width:992px) {
+
+    a {
+        color: black;
+    }
+
+    a:hover {
+        color: black;
+    }
+
+    footer p {
+        font-size: x-large;
+    }
+
+    .prueba {
+        padding-top: 4em;
+        font-size: 1.5em;
+    }
+
+    .icono {
+        height: 50px;
+    }
+
+    .img-fluida {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .fondo-lg {
+        background-color: transparent;
+    }
+
 }
