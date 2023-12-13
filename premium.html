@@ -11,35 +11,53 @@
 </head>
 
 <body>
+    <!-- fondo linear de color verde -->
     <div class="fondo">
+        <!-- header que se alarga tood el contenido -->
         <header class="container-fluid">
             <div class="row">
+                <!-- navbar etiqueta semantica html-->
                 <nav
-                    class="navbar col-12 justify-content-sm-center justify-content-md-between justify-content-lg-between">
+                    class="navbar col-12 justify-content-sm-center justify-content-md-between">
                     <a class="mt-3" href="index.html">
                         <img class="logo" src="images/logoCasasFood.svg" alt="imagotipo de la compañía">
                         <img class="imagen" src="images/EMPRESAletteringblanco.svg" alt="lettering del logo">
                     </a>
-                    <div class="fondo-sm fondo-lg d-none d-sm-block mt-3 ">
+                    <div class="fondo-sm fondo-lg d-none d-sm-block mt-3">
                         <a class="h3 mx-3 fw-bold" href="index.html">HOME</a>
                         <a class="h3 mx-3 fw-bold" href="usos.html">USOS</a>
                         <a class="h3 mx-3 fw-bold" href="who.html">QUIENES SOMOS</a>
                         <a class="h3 mx-3 fw-bold" href="asistencia.html">ASISTENCIA</a>
                     </div>
                     <div class="d-sm-none">
-                        <img class="menu" src="images/menu.png" alt="Botón menú desplegable">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <img class="menu" src="images/menu.png" alt="Botón menú desplegable">
+                        </button>
                     </div>
                 </nav>
+                <div class="bg-dark collapse d-lg-none" id="navbarNav">
+                    <ul class="list-unstyled mt-3">
+                        <li><a class="h3 mx-3 fw-bold text-white formato-enlaces-boton" href="index.html">HOME</a></li>
+                        <li><a class="h3 mx-3 fw-bold text-white formato-enlaces-boton" href="usos.html">USOS</a></li>
+                        <li><a class="h3 mx-3 fw-bold text-white formato-enlaces-boton" href="who.html">QUIENES SOMOS</a></li>
+                        <li><a class="h3 mx-3 fw-bold text-white formato-enlaces-boton" href="asistencia.html">ASISTENCIA</a></li>
+                    </ul>
+                </div>
             </div>
         </header>
+        <!-- cuerpo principal de la pagina web -->
         <main class="container mx-auto">
             <div class="row">
+                <!-- texto inicial pagina premium -->
                 <div class="col-12 mt-5">
                     <p>En Casafood, ofrecemos dos tipos de suscripciones: Basica y Premium. Cada una ofrece diferentes
                         ventajas y funcionalidades para mejorar tu experiencia al generar recetas saludables y comparar
                         precios en diversos supermercados. A continuación, se muestra una comparativa detallada entre
                         ambas suscripciones:</p>
                 </div>
+                <!-- tabla conteido premium/basico -->
                 <div class="col-12 col-lg-6">
                     <table>
                         <tr>
@@ -74,6 +92,7 @@
                         </tr>
                     </table>
                 </div>
+                <!-- video recetas veganas -->
                 <div class="col-12 col-lg-6">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/_SpIHhePKWg?si=CzSBkB9qEh8M1hEz"
                         title="YouTube video player"
@@ -83,20 +102,26 @@
             </div>
         </main>
         <hr>
+        <!-- pie de fagina que se extiende -->
         <footer class="container-fluid">
+            <!-- datos de la empresa -->
             <div class="row">
+                <!-- icono ubicacion y direccion -->
                 <div class="col-6 col-sm-3">
                     <img class="icono" src="images/loc.png" alt="icono de ubicación">
                     <p>CIFP CARLOS III CARTAGENA</p>
                 </div>
+                <!-- icono correo y direccion correo electronico -->
                 <div class="col-6 col-sm-3">
                     <img class="icono" src="images/mail.png" alt="icono de correo">
                     <p>CASAFOOD3@GMAIL.COM</p>
                 </div>
+                <!-- icono telefono y numero de telefono -->
                 <div class="col-6 col-sm-3">
                     <img class="icono" src="images/phone.png" alt="icono de teléfono">
                     <p>+34 123456789</p>
                 </div>
+                <!-- logo de la empresa -->
                 <div class="col-6 col-sm-3">
                     <img class="logoFooter" src="images/logoFooter.png" alt="Logo de la compañía">
                 </div>
