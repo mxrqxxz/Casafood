@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap');
 
 /* 
 
@@ -38,6 +38,7 @@ a {
 footer p {
     font-size: small;
     text-align: center;
+    font-weight: 700;
 }
 
 .fondo {
@@ -180,7 +181,7 @@ footer p {
     margin-top: 10%;
     border-radius: 20px 20px 0px 0px;
     min-width: 400px;
-    margin-bottom: 0;
+    margin-bottom: -1px;
 }
 
 .seccionUsos2 {
@@ -192,7 +193,6 @@ footer p {
     border-radius: 20px 20px 20px 20px;
     min-width: 400px;
     margin-bottom: 0;
-    height: 100%;
 }
 
 .seccionUsosAbajo {
@@ -203,7 +203,6 @@ footer p {
     margin-top: 0;
     border-radius: 0px 0px 20px 20px;
     min-width: 400px;
-    height: 100%;
 }
 
 .cardcustom {
