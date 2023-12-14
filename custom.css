@@ -155,6 +155,18 @@ footer p {
     width: 170px;
 }
 
+.botonPremium {
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    text-decoration: none;
+    color: white;
+    background-color: #7B78FB;
+    border-radius: 10px;
+    padding: 1em;
+    width: 170px;
+}
+
 .menu {
     max-width: 50px;
 }
